@@ -42,3 +42,19 @@ header ul li a {
     font-size: 22px;
     text-decoration: none;
 }
+/*HEADER*/
+
+/*MAIN*/
+main {
+    background-color: #f1faee;
+}
+.texto-main .col {
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
+
+main div img {
+    width: 700px;
+}
+/*MAIN*/
