@@ -44,3 +44,18 @@ header ul li a {
     text-decoration: none;
 }
 /*HEADER*/
+/*SECTION*/
+.nosotros {
+    padding-top: 50px;
+}
+
+.nosotros h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.nosotros h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+/*SECTION*/
