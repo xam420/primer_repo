@@ -52,10 +52,61 @@ header ul li a {
 .nosotros h1 {
     font-size: 35px;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .nosotros h2 {
     font-size: 25px;
     font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
 /*SECTION*/
+
+/*FOOTER*/
+footer {
+    height: 250px;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f1faee;
+    margin-top: 20px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer div a {
+    background-color: #f1faee;
+    color: #212529;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    transition: .4s;
+}
+
+footer div .one:hover {
+    background-color: #E1306C;
+}
+
+footer div .two:hover {
+    background-color: #4267B2;
+}
+
+footer div .three:hover {
+    background-color: #ffff00;
+}
+/*FOOTER*/
