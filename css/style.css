@@ -54,7 +54,12 @@ main {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 } 
+
+.texto-main h2 {
+    font-weight: 400;
+}
 
 .texto-main2 {
     margin: 20px;
@@ -62,9 +67,28 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .texto-main2 h1 {
     color: #f1faee;
+    font-weight: 400;
 }
 /*MAIN*/
+
+/*FOOTER*/
+footer {
+    height: 70px;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer h3 {
+    color: #f1faee;
+    font-weight: 100;
+    font-size: 20px;
+}
+/*FOOTER*/
