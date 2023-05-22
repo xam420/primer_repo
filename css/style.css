@@ -46,15 +46,25 @@ header ul li a {
 
 /*MAIN*/
 main {
-    background-color: #f1faee;
-}
-.texto-main .col {
-    display: flex;
-    justify-content: center;
-    margin-top: 50%;
+    height: 700px;
 }
 
-main div img {
-    width: 700px;
+.texto-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.texto-main2 {
+    margin: 20px;
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-main2 h1 {
+    color: #f1faee;
 }
 /*MAIN*/
